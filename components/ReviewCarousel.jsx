@@ -21,8 +21,8 @@ const ReviewCarousel = () => {
     <div className="relative overflow-hidden h-[26rem]">
       <Slider {...settings}>
         {reviews.map((items) => (
-          <div className="h-[30rem] w-[70rem] p-14">
-            <div className="border bg-gray-100 rounded-md flex gap-0 flex-col justify-center items-center">
+          <div key={items.name} className="h-[30rem] w-[70rem] p-14">
+            <div className="border bg-slate-50 rounded-md flex gap-0 flex-col justify-center items-center">
               <Image
                 src={items.img}
                 alt="logo"
