@@ -1,5 +1,5 @@
 import { Navbar, ImageComponent, ImageComponentTwo } from '../components';
-import { Hero, About, ReviewSlider, Simplfy } from '../sections';
+import { Hero, About, ReviewSlider, Simplfy, Footer } from '../sections';
 
 const Page = () => (
   <div className="h-full w-full relative overflow-hidden">
@@ -10,6 +10,7 @@ const Page = () => (
     <About />
     <ReviewSlider />
     <Simplfy />
+    <Footer />
   </div>
 );
 
