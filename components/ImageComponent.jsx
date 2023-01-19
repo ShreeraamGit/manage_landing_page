@@ -3,9 +3,8 @@
 import React from 'react';
 import Image from 'next/image';
 import formOneMobile from '../public/Rectangle_13_mobile.svg';
-import formTwoMobile from '../public/Rectangle_15_mobile.svg';
+
 import formOneDesktop from '../public/RectangleDesktop.svg';
-import formTwoDesktop from '../public/Rectangle_12_desktop.svg';
 
 const ImageComponent = () => (
   <div className="absolute top-0 right-0 -z-50">
